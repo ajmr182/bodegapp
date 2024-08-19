@@ -44,6 +44,8 @@ kotlin {
             implementation(libs.ktor.client.json)
             implementation(libs.ktor.client.serialization)
             implementation(libs.lifecycle.viewmodel)
+            implementation(libs.voyager.navigator)
+            implementation(libs.voyager.transitions)
         }
         desktopMain.dependencies {
             implementation(compose.desktop.currentOs)

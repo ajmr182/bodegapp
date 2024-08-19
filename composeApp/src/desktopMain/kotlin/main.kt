@@ -3,6 +3,7 @@ import androidx.compose.ui.window.application
 import di.appModule
 import di.viewmodelModule
 import org.koin.core.context.GlobalContext.startKoin
+import ui.App
 
 fun main() = application {
     startKoin {
