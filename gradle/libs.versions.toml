@@ -13,12 +13,12 @@ androidx-test-junit = "1.2.0"
 compose-plugin = "1.6.11"
 junit = "4.13.2"
 kotlin = "2.0.0"
-koin-version = "3.5.3"
-ktor = "2.3.11"
-koin-bom = "3.5.6"
+koin-version = "4.0.0-RC1"
+ktor = "4.0.0-RC1"
+koin-bom = "4.0.0-RC1"
 kotlinx-serialization = "1.6.3"
 kamelImage = "0.9.4"
-koin-compose = "3.5.2"
+koin-compose = "4.0.0-RC1"
 ktor-client-core = "2.3.11"
 ktor-client-cio = "2.3.11"
 ktor-client-logging = "2.3.11"
@@ -45,6 +45,7 @@ ktor-client-okhttp = { module = "io.ktor:ktor-client-okhttp", version.ref = "kto
 ktor-client-js = { module = "io.ktor:ktor-client-js", version.ref = "ktor" }
 koin-bom = { module = "io.insert-koin:koin-bom", version.ref = "koin-bom" }
 koinCore = { module = "io.insert-koin:koin-core", version.ref = "koin-version" }
+koinCoreAndroid = { module = "io.insert-koin:koin-android", version.ref = "koin-version" }
 koin-compose = { module = "io.insert-koin:koin-compose", version.ref = "koin-compose" }
 ktor-client-core = { module = "io.ktor:ktor-client-core", version.ref = "ktor-client-core" }
 ktor-client-cio = { module = "io.ktor:ktor-client-cio", version.ref = "ktor-client-cio" }
